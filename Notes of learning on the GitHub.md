@@ -61,7 +61,7 @@
 
 ---
 
-## 4.通过Git托管GitHub代码
+## 4. 通过Git托管GitHub代码
 
 - 一般使用SSH将git与github绑定。
 - 一般先进行**pull**，再进行**push**，针对本地无对应**git仓库**有：
@@ -77,9 +77,32 @@ git config --global user.email"***@***.com"
 - 如果是本地已有Git仓库，且多次**commit**，则：
 - 输入`git remote add origin https://..`，关联远程仓库，再输入`git pull origin master`，同步，
 
+---
 
+## 5. 简单演示
 
+- 选定目录进入**bash**，输入`git clone https://..`，克隆远程仓库。
 
+![image-20240418232455134](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232455134.png)
 
+- 在该目录中添加文件，
 
+![image-20240418232750375](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232750375.png)
+
+- 从**目录进入bash**，输入`git status`查看状态，
+
+![image-20240418232839247](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232839247.png)
+
+- 使用`git add Notes of learning on the GitHub.md & git commit -m "1st edited."`，
+
+![image-20240418233318921](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418233318921.png)
+
+​		然鹅，我们会发现报错，因为文件带空格，可以使用双引号，
+
+![image-20240418233633774](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418233633774.png)
+
+- 使用`git log`查看提交日志，使用**q**退出。
+- 再输入`git push origin master`进行同步，其中origin为仓库名，master为分支名，与`git push`不同。
+
+![image-20240419000059274](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240419000059274.png)
 
