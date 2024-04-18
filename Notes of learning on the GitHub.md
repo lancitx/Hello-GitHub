@@ -87,26 +87,32 @@ git config --global user.email"***@***.com"
 
 - 选定目录进入**bash**，输入`git clone https://..`，克隆远程仓库。
 
-![image-20240418232455134](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232455134.png)
+![image-20240418232455134](./images/image-20240418232455134.png)
 
 - 在该目录中添加文件，
 
-![image-20240418232750375](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232750375.png)
+![image-20240418232750375](./images/image-20240418232750375.png)
 
 - 从**目录进入bash**，输入`git status`查看状态，
 
-![image-20240418232839247](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418232839247.png)
+![image-20240418232839247](./images/image-20240418232839247.png)
 
 - 使用`git add Notes of learning on the GitHub.md & git commit -m "1st edited."`，
 
-![image-20240418233318921](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418233318921.png)
+![image-20240418233318921](./images/image-20240418233318921.png)
 
 ​		然鹅，我们会发现报错，因为文件带空格，可以使用双引号，
 
-![image-20240418233633774](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240418233633774.png)
+![image-20240418233633774](./images/image-20240418233633774.png)
 
 - 使用`git log`查看提交日志，使用**q**退出。
 - 再输入`git push origin master`进行同步，其中origin为仓库名，master为分支名，与`git push`不同。
 
-![image-20240419000059274](C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20240419000059274.png)
+![image-20240419000059274](./images/image-20240419000059274.png)
+
+---
+
+## 6. 常见问题
+
+- 上传**md文件后**图片无法正常显示，解决方法：在仓库新建images文件夹上传图片，图片使用相对路径。
 
