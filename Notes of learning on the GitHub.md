@@ -59,6 +59,10 @@
 - `git branch -d xx & git branch -D xx`：**删除xx分支 & 强制删除xx分支**。
 - `git tag XXX`：**给当前分支添加标签**，可以用`git tag`显示分支标签。
 
+
+
+- `git remote -v`：查看远程仓库信息。
+
 ---
 
 ## 4. 通过Git托管GitHub代码
