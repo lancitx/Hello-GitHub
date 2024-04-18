@@ -106,7 +106,7 @@ git config --global user.email"***@***.com"
 ![image-20240418233633774](./images/image-20240418233633774.png)
 
 - 使用`git log`查看提交日志，使用**q**退出。
-- 再输入`git push origin master`进行同步，其中origin为仓库名，master为分支名，与`git push`不同。
+- 再输入`git push origin master`进行同步，其中origin为仓库名，如**origin**，通过`git remote -v`查看，master为分支名，如**main**，使用`git branch`查看，与`git push`不同。
 
 ![image-20240419000059274](./images/image-20240419000059274.png)
 
