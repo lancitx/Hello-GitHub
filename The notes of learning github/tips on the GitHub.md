@@ -84,10 +84,10 @@ git本地数据管理有三个分区：
 - `git rm xx`：**删除工作区xx文件**，并将此次删除**放入暂存区**，==**使用该指令需要求与远程库文件一致（无修改）**==，然后commit。
 - `git rm -f xx`：**针对工作区中已经修改的xx文件（==不一致==）进行删除**，然后commit。
 
-- `git rm --cached xx`：**删除暂存区xx文件，但不删除工作区xx文件**，然后commit，实现工作区文件保留，其余两个删除。
+- `git rm --cache xx`：**删除暂存区xx文件，但不删除工作区xx文件**，然后commit，实现工作区文件保留，其余两个删除。
 
 - `git rm *.txt`：**其中\*是通配符**，用于批量删除同一格式的文件。
-- `git rm --cached -r --files-from=filelist.txt`：**使用列表的方法批量删除文件**，其中**filelist.txt**保存待删除文件的路径，各占一行。
+- `git rm --cache -r --files-from=filelist.txt`：**使用列表的方法批量删除文件**，其中**filelist.txt**保存待删除文件的路径，各占一行。
 
 - `git filter-branch`：针对上面的删除，git会保留对应记录，使用该指令可以**进行历史记录的重写**。
 
