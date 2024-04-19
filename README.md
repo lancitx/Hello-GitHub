@@ -14,7 +14,7 @@
 
 - github的一些使用技巧
 - git的文件添加、删除、同步。
-- [tips on the GitHub.md](https://github.com/lancitx/LNotes/blob/main/tips of github/tips on the GitHub.md)
+- [tips on the GitHub.md](./tips of github/tips on the GitHub.md)
 
 ### 2. LinuxC
 
