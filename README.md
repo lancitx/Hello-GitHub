@@ -14,6 +14,6 @@
 
 - github的一些使用技巧
 - git的文件添加、删除、同步。
-- 详情：[Click there](.\tips_github\tips_github.md)
+- 详情：[Click there](tips_github/tips_github.md)
 ### 2. LinuxC
 
