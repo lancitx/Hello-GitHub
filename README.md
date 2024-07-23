@@ -1,4 +1,4 @@
-# LNotes
+# Hello gitub!
 - The purpose of this is to document certain aspects of my learning notes.
 
 ### github使用技巧
