@@ -203,4 +203,5 @@ git config --global user.email"***@***.com"
 
 - 上传**md文件后**图片无法正常显示，解决方法：在仓库新建images文件夹上传图片，图片使用相对路径。
 - 在github中的README.md文件中**超链接失效**或**渲染失败**：1、在github中编辑，2、使用url链接，3、注意**空格用%20**表示。
+- github使用的：`git config --global http.version HTTP/1.1`
 
