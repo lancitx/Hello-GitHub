@@ -69,13 +69,13 @@ git本地数据管理有三个分区：
 ### 3.2 添加文件
 
 - `git init`：初始化仓库，算是声明，需注意在初始化前的目录下文件将显示**untracked files**。
-
+-  `git remote add origin git@github.com:gain-xx/xx.git`：关联仓库
 - `git add xx`：添加`xx`文件到暂存区，**并不是真的到仓库**。
 - `git add -A .`：添加**所有改变了的文件**到暂存区。
 - `git add .`：表示添加**新文件和编辑过的文件，但不包括删除的文件**。
 - `git add -u`：表示添加**编辑或者删除的文件，不包括新添加的文件**。
-
 - `git commit -m "提交信息"`：将文件提交到仓库，**并附带备注信息**。
+- `git push -u origin master`：推送本地所有内容到仓库主分支中。
 
 ### 3.3 删除文件
 
